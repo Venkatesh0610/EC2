@@ -13,6 +13,8 @@
     - **Instance Store** (internal storage )
 - For AWS **root volume** (where your OS is intalled) we can make use these IS or EBS.
 - Pre configured templates are already present **( Amazon Machine Image [AMI])**
+![Elastic Compute Cloud](https://user-images.githubusercontent.com/62538952/132107446-27cd7dc0-5484-408a-b71e-fc1e7019e38d.gif)
+
 
 # Types of EC2
 
