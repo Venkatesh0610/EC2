@@ -15,13 +15,60 @@
 - Pre configured templates are already present **( Amazon Machine Image [AMI])**
 ![Elastic Compute Cloud](https://user-images.githubusercontent.com/62538952/132107446-27cd7dc0-5484-408a-b71e-fc1e7019e38d.gif)
 
-
 # Types of EC2
 
-- **General Purpose**
-- **Compute Optimized**
-- **Previous Generation**
-- **Memory Optimized**
-- **Storage Optimized**
-- **Accrlrated Computing / GPU**
-- **High Memory**
+- [**General Purpose**](https://github.com/Venkatesh0610/EC2#General-Purpose)
+- [**Compute Optimized**](https://github.com/Venkatesh0610/EC2#Compute-Optimized)
+- [**Previous Generation**](https://github.com/Venkatesh0610/EC2#Previous-Generation)
+- [**Memory Optimized**](https://github.com/Venkatesh0610/EC2#Memory-Optimized)
+- [**Storage Optimized**](https://github.com/Venkatesh0610/EC2#Storage-Optimized)
+- [**Accelrated Computing**](https://github.com/Venkatesh0610/EC2#Accelerated-Computing)
+- [**High Memory**](https://github.com/Venkatesh0610/EC2#High-Memory)
+
+# General Purpose
+
+When we require a balanced/average compute,memory,networking used fro variety of workload in that case we choose GPI
+
+GPI consists of three Series :
+
+- A (A1)
+- M (M4,M5,M5a,M5ad,M5d)
+- T (T2,T3,T3a)
+
+**Note:** In GPI the instance size varies from nano,small,medium,large.
+
+**A Series**
+
+When we required scale out(increase the instance anytimw) of our workload
+we select A series GPI.
+
+Basically used for :
+
+Small web servers, containerize micro Services,caching fleets (at a time many EC2 can run).
+
+**M Series**
+
+Whenever we have a high workload and the instance has to perform high in that cases we basically use M series GPI.
+
+In M series we have M4,M5,M5a,M5ad,M5d instance.
+
+**M4:**
+
+- It features a custom intel xeon v3 haswell processor
+- VCPU : 2 to 40, RAM : 8 to 160 GB, Storage : EBS only
+
+**M5,5a,5ad,5d :**
+
+- when we require balanced compute, memory and networking for our workload,
+- VCPU : 2 to 96, RAM : 8 to 384 GB, Storage : EBS & NVMe SDD.
+
+**T Series**
+
+It provides a baseline level of CPU performance with **burst** when it reaches to higher level.
+
+In T series we have T2(**free tier**),T3,T3a instance.
+
+**T2,T3,T3a :**
+- VCPU : 2 to 8, RAM : 0.5 to 32 GB, Storage : EBS only
+
+![GPI](https://user-images.githubusercontent.com/62538952/132138324-b100296a-292d-4042-b581-3840e8083dc3.png)
