@@ -72,3 +72,5 @@ In T series we have T2(**free tier**),T3,T3a instance.
 - VCPU : 2 to 8, RAM : 0.5 to 32 GB, Storage : EBS only
 
 ![GPI](https://user-images.githubusercontent.com/62538952/132138324-b100296a-292d-4042-b581-3840e8083dc3.png)
+
+**Compute Optimized**
