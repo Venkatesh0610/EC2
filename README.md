@@ -19,11 +19,11 @@
 
 - [**General Purpose**](https://github.com/Venkatesh0610/EC2#General-Purpose)
 - [**Compute Optimized**](https://github.com/Venkatesh0610/EC2#Compute-Optimized)
-- [**Previous Generation**](https://github.com/Venkatesh0610/EC2#Previous-Generation)
 - [**Memory Optimized**](https://github.com/Venkatesh0610/EC2#Memory-Optimized)
 - [**Storage Optimized**](https://github.com/Venkatesh0610/EC2#Storage-Optimized)
 - [**Accelrated Computing**](https://github.com/Venkatesh0610/EC2#Accelerated-Computing)
 - [**High Memory**](https://github.com/Venkatesh0610/EC2#High-Memory)
+- [**Previous Generation**](https://github.com/Venkatesh0610/EC2#Previous-Generation)
 
 # General Purpose
 
@@ -73,7 +73,7 @@ In T series we have T2(**free tier**),T3,T3a instance.
 
 ![GPI](https://user-images.githubusercontent.com/62538952/132138324-b100296a-292d-4042-b581-3840e8083dc3.png)
 
-**Compute Optimized**
+# Compute Optimized
 
 When we need high performance by doing parallel, batch processing in that case we use COI.
 
@@ -105,7 +105,7 @@ used at : web servers,video encoding etc.
 ![COI](https://user-images.githubusercontent.com/62538952/132389026-6cf79eac-a3c9-4bfe-b109-0672284eb2c1.png)
 
 
-**Memory Optimize**
+# Memory Optimized
 
 It is use when we have to deliver fast performamce for that workloads which process large datasets in memory.
 
