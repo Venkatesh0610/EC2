@@ -19,11 +19,11 @@
 
 - [**General Purpose**](https://github.com/Venkatesh0610/EC2#General-Purpose)
 - [**Compute Optimized**](https://github.com/Venkatesh0610/EC2#Compute-Optimized)
+- [**Previous Generation**](https://github.com/Venkatesh0610/EC2#Previous-Generation)
 - [**Memory Optimized**](https://github.com/Venkatesh0610/EC2#Memory-Optimized)
 - [**Storage Optimized**](https://github.com/Venkatesh0610/EC2#Storage-Optimized)
 - [**Accelrated Computing**](https://github.com/Venkatesh0610/EC2#Accelerated-Computing)
 - [**High Memory**](https://github.com/Venkatesh0610/EC2#High-Memory)
-- [**Previous Generation**](https://github.com/Venkatesh0610/EC2#Previous-Generation)
 
 # General Purpose
 
@@ -105,7 +105,7 @@ used at : web servers,video encoding etc.
 ![COI](https://user-images.githubusercontent.com/62538952/132389026-6cf79eac-a3c9-4bfe-b109-0672284eb2c1.png)
 
 
-# Memory Optimized
+# Memory Optimize
 
 It is use when we have to deliver fast performamce for that workloads which process large datasets in memory.
 
@@ -117,3 +117,36 @@ MOI consists of three series:
 - Z Series(Z1d)
 
 ![MOI](https://user-images.githubusercontent.com/62538952/132390618-112da604-8ecf-47f3-8ce4-f64a346587cb.png)
+
+# How to create an EC2 Instance
+
+In this section you will be going to understand how you can create an EC2 instance in AWS.
+
+For creating an EC2 instance we need to follow the below steps:
+
+- [Sign-in to AWS](https://github.com/Venkatesh0610/EC2#Sign-in-to-AWS)
+- [Search for EC2 instance](https://github.com/Venkatesh0610/EC2#Search-for-EC2-instance)
+- [Create your first EC2 Instance](https://github.com/Venkatesh0610/EC2#Sign-in-to-AWS)
+
+# Sign-in to AWS
+
+In this step you need to sign-in to your AWS root user account.
+
+**Note:** If you didn't yet created the free tier account then create it first and then login.
+[**AWS free tier**](https://aws.amazon.com/free/)
+
+Once you are logged in into the AWS account you will be able to see the dashboard as shown below.
+
+![aws dashboard](https://user-images.githubusercontent.com/62538952/132393104-cb858e25-6ec8-449f-81a9-c91b094b2c7d.PNG)
+
+# Search for EC2 instance
+
+Now its time to search for EC2 instance from the search bar and open it.
+
+![image](https://user-images.githubusercontent.com/62538952/132393341-7f318476-5220-45a7-9fbe-86d2bb4f4c11.png)
+
+And the EC2 dashboard is as shown below:
+
+
+![image](https://user-images.githubusercontent.com/62538952/132393761-41f3e860-99d8-4ead-99e1-7ee805e8615a.png)
+
