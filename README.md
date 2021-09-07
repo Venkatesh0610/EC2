@@ -74,3 +74,45 @@ In T series we have T2(**free tier**),T3,T3a instance.
 ![GPI](https://user-images.githubusercontent.com/62538952/132138324-b100296a-292d-4042-b581-3840e8083dc3.png)
 
 **Compute Optimized**
+
+When we need high performance by doing parallel, batch processing in that case we use COI.
+
+Less cost effective as compared to MOI(M Series).
+
+GPI consists of only one Series :
+
+- C Series (C4,C5,C5n).
+
+**C4**
+
+Optimized for compute intensive workload with high performance at a low cost.
+
+VCPU: 2 to 36, RAM: 3.75 to 60 GB, Storage: **EBS Only**, network Bandwidth : 10 Gbps
+
+used at : web servers,video encoding etc.
+
+**C5,C5n**
+
+It is same as C4 but with more effective and upgradable hypervisor( Nitro System ).
+
+VCPU: 2 to 72, RAM: 4 to 196 GB, Storage: **EBS & NVMe**, network Bandwidth : 25 Gbps
+
+used at : web servers,video encoding etc.
+
+- C5 supports maximum of 25 EBS volume.
+- It use AWS Nitro System ( Hypervisor ).
+
+![COI](https://user-images.githubusercontent.com/62538952/132389026-6cf79eac-a3c9-4bfe-b109-0672284eb2c1.png)
+
+
+**Memory Optimize**
+
+It is use when we have to deliver fast performamce for that workloads which process large datasets in memory.
+
+Basically in simple terms when we have to process big databases data.
+
+MOI consists of three series:
+- R Series(R4,R5,R5a,R5ad,R5d)
+- X Series(X1,X1e)
+- Z Series(Z1d)
+
