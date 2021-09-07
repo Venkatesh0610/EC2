@@ -116,3 +116,4 @@ MOI consists of three series:
 - X Series(X1,X1e)
 - Z Series(Z1d)
 
+![MOI](https://user-images.githubusercontent.com/62538952/132390618-112da604-8ecf-47f3-8ce4-f64a346587cb.png)
