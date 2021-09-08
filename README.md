@@ -166,3 +166,39 @@ Now from here we need to go with the default configured instance setting by simp
 Here we will be going to select a **t2 micro** General Purpose Instace which is a free tier eligible instance in AWS and we already discussed about [General Purpose](https://github.com/Venkatesh0610/EC2#General-Purpose) and its series in details above in this present repository.
 
 ![image](https://user-images.githubusercontent.com/62538952/132564419-4f7eff8f-63cd-4564-94a1-4ff78ce6aa38.png)
+
+In the next step we have an user data script section under **Advance Details** by using which also we can install the required depedencies for our instance(Which we will be going to see later in this repository).
+
+![image](https://user-images.githubusercontent.com/62538952/132566457-ab929811-3e4e-4d0f-8d89-0c66fcf419ec.png)
+
+Under Add Storage section go with the default storage and click on **Add Tags**
+
+
+![image](https://user-images.githubusercontent.com/62538952/132566935-4c5a7842-54af-481c-889e-03b602fcc1b5.png)
+
+Then simply click on Add another tag option and give any name in key section and click on next
+
+![image](https://user-images.githubusercontent.com/62538952/132567586-6101344a-957f-4bf9-8ce8-11c74e980ca3.png)
+
+Now its time to review all the default setting before launching the instance, here in this step simply click on **Review and Launch** button.
+
+
+![image](https://user-images.githubusercontent.com/62538952/132567841-ead19ba8-ef4d-4233-a0b0-5167835096c4.png)
+
+Finally now in above step all the settings will be visible for you and once you click on **Launch** button you LIINUX EC2 instance will be created, but before that make sure you create a new key pair with any name and **don't forget to download the key pair**, then finally click on Launch Instances.
+
+![image](https://user-images.githubusercontent.com/62538952/132568114-b389f2c5-50c4-4617-8bab-47c93f40f91e.png)
+
+![image](https://user-images.githubusercontent.com/62538952/132569463-069f2b92-f1e3-4932-b09c-ad62a746b348.png)
+
+Once the instance is created you will able to see something as shown below, from here simply click on the **id or launch instances**
+
+![image](https://user-images.githubusercontent.com/62538952/132569379-9fc2eb2d-ab5d-48cd-86ef-2436a495f9c5.png)
+
+After few minutes the instance which you created will be in running state as shown below
+
+![image](https://user-images.githubusercontent.com/62538952/132569831-4204f3ff-e7a2-45d5-83cb-1d982198b033.png)
+
+Steps to be followed:
+
+![20210909_004905](https://user-images.githubusercontent.com/62538952/132571843-cc71554c-a24c-48eb-a894-d3ab97656ca4.gif)
