@@ -126,7 +126,7 @@ For creating an EC2 instance we need to follow the below steps:
 
 - [Sign-in to AWS](https://github.com/Venkatesh0610/EC2#Sign-in-to-AWS)
 - [Search for EC2 instance](https://github.com/Venkatesh0610/EC2#Search-for-EC2-instance)
-- [Create your first EC2 Instance](https://github.com/Venkatesh0610/EC2#Sign-in-to-AWS)
+- [Create your first EC2 Instance](https://github.com/Venkatesh0610/EC2#Create-your-first-EC2-Instance)
 
 # Sign-in to AWS
 
@@ -148,6 +148,8 @@ Now its time to search for EC2 instance from the search bar and open it.
 And the EC2 dashboard is as shown below:
 
 ![image](https://user-images.githubusercontent.com/62538952/132393761-41f3e860-99d8-4ead-99e1-7ee805e8615a.png)
+
+# Create your first EC2 Instance
 
 Now for creating an EC2 instance in AWS you need to click on **Instances** option and then for launching your first instance click on **Launch instances** button which is present in the top right corner.
 
