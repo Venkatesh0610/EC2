@@ -147,6 +147,20 @@ Now its time to search for EC2 instance from the search bar and open it.
 
 And the EC2 dashboard is as shown below:
 
-
 ![image](https://user-images.githubusercontent.com/62538952/132393761-41f3e860-99d8-4ead-99e1-7ee805e8615a.png)
 
+Now for creating an EC2 instance in AWS you need to click on **Instances** option and then for launching your first instance click on **Launch instances** button which is present in the top right corner.
+
+![image](https://user-images.githubusercontent.com/62538952/132562307-95e34faa-7ec9-4542-a709-7fc2d58c3975.png)
+
+After click on Launch instances it will redirect to a new page where we need to select the type of the instance which we need to create.
+
+We will be going to create a LINUX instance which is a free eligible instance in AWS, for selecting the LINUX instace you simply needs to click on **Select** button.
+
+![image](https://user-images.githubusercontent.com/62538952/132563326-04f94cff-2944-4fde-8c06-d96dc534ff78.png)
+
+Now from here we need to go with the default configured instance setting by simply clicking on **Next. Configure Instance Details**
+
+Here we will be going to select a **t2 micro** General Purpose Instace which is a free tier eligible instance in AWS and we already discussed about [General Purpose](https://github.com/Venkatesh0610/EC2#General-Purpose) and its series in details above in this present repository.
+
+![image](https://user-images.githubusercontent.com/62538952/132564419-4f7eff8f-63cd-4564-94a1-4ff78ce6aa38.png)
