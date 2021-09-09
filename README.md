@@ -202,3 +202,35 @@ After few minutes the instance which you created will be in running state as sho
 Steps to be followed:
 
 ![20210909_004905](https://user-images.githubusercontent.com/62538952/132571843-cc71554c-a24c-48eb-a894-d3ab97656ca4.gif)
+
+
+**How to connect our instance using putty**
+
+As we already done with creating our EC2 instance in AWS now here we will be connecting our server using putty.
+
+So before moving forward we need to install the below softwares:
+
+- [Putty](https://www.putty.org/)
+- [Puttygen](https://www.puttygen.com/)
+
+**Note :** This steps is only for windows user.
+
+Follow the below steps to setup the server.
+
+- Open Puttygen and load the keypair
+- Open Putty and connect the server.
+
+**Open Puttygen and load the key pair**
+
+From the search bar open the Puttygen and load the key pair which we already downloaded while creating the LINUX instance and the save the private key for further use.
+
+**Open Putty and connect the server**
+
+Now open putty from search bar and click on **Auth** which will be present under **SHH**
+and then browse the private key which we saved in the previous step.
+
+And then click on **Session** and provide the IP address which will be avialable under the instance in AWS,once the adress is added a terminal will open where you need to write **ec2-user** which will connect your server.
+
+Follow the below reference for better understanding the steps.
+
+![20210909_233031](https://user-images.githubusercontent.com/62538952/132738681-62d0d983-cb41-481b-95e6-7e13560370f9.gif)
