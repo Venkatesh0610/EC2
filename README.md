@@ -204,7 +204,7 @@ Steps to be followed:
 ![20210909_004905](https://user-images.githubusercontent.com/62538952/132571843-cc71554c-a24c-48eb-a894-d3ab97656ca4.gif)
 
 
-**How to connect our instance using putty**
+# How to connect our instance using putty
 
 As we already done with creating our EC2 instance in AWS now here we will be connecting our server using putty.
 
