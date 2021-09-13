@@ -234,3 +234,6 @@ And then click on **Session** and provide the IP address which will be avialable
 Follow the below reference for better understanding the steps.
 
 ![20210909_233031](https://user-images.githubusercontent.com/62538952/132738681-62d0d983-cb41-481b-95e6-7e13560370f9.gif)
+
+
+# How to connect with windows server
