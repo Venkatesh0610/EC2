@@ -237,3 +237,8 @@ Follow the below reference for better understanding the steps.
 
 
 # How to connect with windows server
+
+For creating to window server you need to follow the below steps,
+
+- Create a free tier windows instance
+
